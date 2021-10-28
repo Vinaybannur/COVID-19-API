@@ -1,0 +1,74 @@
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(97 233 255);
+   
+}
+
+body{
+    background-color: rgb(22, 31, 46);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.content{
+
+    background-color: rgb(46 52 64);
+    width: 260px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.countryName{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+    color: rgb(243 253 103);
+}
+
+.other{
+    margin-left: 15px;
+}
+
+
+.newConfirmedCases{
+    color: #d7967f;
+}
+
+
+.totalConfirmedCases{
+    color: #acdbf1;
+}
+.newDeath{
+    color:#ebc159;
+}
+.totalDeath{
+    color: #d0b3ef;
+}
+.newRecovered{
+    color: #ddf7ff;
+}
+.totalRecovered{
+    color: darkturquoise;
+}
+.date{
+    color: #c7ffdb;
+}
+
+@media (min-width:400px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       
+    }
+}
+@media (min-width:800px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+       
+    }
+}
